@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -14,6 +15,7 @@ main {
   justify-content: center;
   align-items: center;  
   width: 100%;
+  height: 100vh;
 }
 
 article {
@@ -28,10 +30,13 @@ article {
 .blog-image {
   display: flex;
   justify-content: center;
-  padding: 24px 0px 0px 0px;
+  padding-top: 24px;
   
 }
 
+.blog-image svg {
+  border-radius: 12px;
+}
 /*-------------------------------*/
 
 /*BLog Content Style*/
@@ -40,15 +45,17 @@ article {
   padding: 24px 24px 0px 24px;
 }
 
-.blog-card-subhead {  
-  text-align: center;
+.blog-category {  
+  font-family: 'Figtree', sans-serif;
+  
   background-color: #F4D04E;
   border-radius: 4px;
-  
-
-
+ 
 }
 
+.blog-category h4 {
+  padding: 8px 12px 8px 12px;
+}
 
 /*-------------------------------*/
 
@@ -57,4 +64,5 @@ article {
 
 .author-details {
   padding: 0px 24px 0px 24px;
+
 }
