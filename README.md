@@ -25,7 +25,7 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: https://github.com/devmork/Blog-Preview-Card
-- Live Site URL: 
+- Live Site URL: https://devmork.github.io/Blog-Preview-Card/
 
 ## My process
 
