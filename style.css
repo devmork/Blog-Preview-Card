@@ -24,9 +24,12 @@ article {
   background-color: #fff;
   border-radius: 20px;
   border: solid 1px black;
+  margin-left: 24px;
+  margin-right: 24px;
   box-shadow: 10px 8px 0px 0px rgba(0,0,0,1);
   -webkit-box-shadow: 10px 8px 0px 0px rgba(0,0,0,1);
   -moz-box-shadow: 10px 8px 0px 0px rgba(0,0,0,1);
+  
 }
 
 /*Blog Image Style*/
@@ -35,13 +38,16 @@ article {
   display: flex;
   justify-content: center;
   padding: 24px 24px 0px 24px;
+  overflow: hidden;
+ 
   
 }
 
-.blog-image svg {
+.blog-image .svg-blog-image {
   border-radius: 12px;
-  
+  outline: 1px solid red;
 }
+
 /*-------------------------------*/
 
 /*BLog Content Style*/
@@ -123,7 +129,14 @@ article {
 @media (max-width: 375px) {
   article {
     max-width: 324px;
+    
   }
 
+  .blog-image .svg-blog-image {
+    border-radius: 16px;
+    
+  }
+  
   
 }
+

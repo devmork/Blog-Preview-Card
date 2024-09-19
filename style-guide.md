@@ -22,7 +22,12 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size (h1): 1.602rem
+- Font size (h3): 0.889rem
+- Font size (h4): 0.937rem
+- Font size (paragraph): 0.937rem
+
+
 
 ### Font
 
