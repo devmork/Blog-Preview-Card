@@ -82,11 +82,16 @@ article {
 
 .blog-title {
   font-family: 'Figtree', sans-serif;
-  font-size: 1.602rem;
+  font-size: 1.424rem;
   line-height: 150%;
   letter-spacing: 0px;
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+
+.blog-title:hover {
+  color: #F4D04E;
 }
 
 .blog-description {
@@ -96,6 +101,9 @@ article {
   letter-spacing: 0px;
   color: #6B6B6B;
 }
+
+
+
 
 /*-------------------------------*/
 
